@@ -1,0 +1,132 @@
+# 
+
+# diff all
+
+# version
+# Betaflight / OMNIBUSF4SD (OBSD) 3.5.6 Feb 16 2019 / 13:29:46 (c28ca22f9) MSP API: 1.40
+
+board_name OMNIBUSF4SD
+manufacturer_id 
+mcu_id 003b003c574850092038344b
+signature 
+
+# reset configuration to default settings
+defaults nosave
+
+# name
+
+# resources
+resource MOTOR 1 A03
+resource MOTOR 2 B00
+resource MOTOR 3 A02
+resource MOTOR 4 B01
+
+# mixer
+
+# servo
+
+# servo mix
+
+
+# feature
+feature -RX_PARALLEL_PWM
+feature RX_SERIAL
+feature AIRMODE
+
+# beeper
+
+# beacon
+beacon RX_SET
+
+# map
+
+# serial
+serial 0 64 115200 57600 0 115200
+serial 2 1 115200 57600 0 115200
+
+# led
+
+# color
+
+# mode_color
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 13 3 1700 2100 0 0
+aux 2 35 2 1700 2100 0 0
+
+# adjrange
+
+# rxrange
+
+# vtx
+
+# rxfail
+
+# master
+set gyro_lowpass2_hz = 0
+set mag_hardware = NONE
+set baro_hardware = NONE
+set serialrx_provider = SBUS
+set motor_pwm_protocol = DSHOT600
+set pid_process_denom = 2
+
+# profile
+profile 0
+
+set dterm_notch_cutoff = 0
+set vbat_pid_gain = ON
+set iterm_rotation = OFF
+set iterm_relax = RP
+set p_pitch = 61
+set i_pitch = 59
+set f_pitch = 50
+set p_roll = 57
+set i_roll = 53
+set f_roll = 50
+
+# profile
+profile 1
+
+
+# profile
+profile 2
+
+
+# restore original profile selection
+profile 0
+
+# rateprofile
+rateprofile 0
+
+set yaw_rc_rate = 130
+set roll_srate = 75
+set pitch_srate = 75
+set yaw_srate = 60
+
+# rateprofile
+rateprofile 1
+
+
+# rateprofile
+rateprofile 2
+
+
+# rateprofile
+rateprofile 3
+
+
+# rateprofile
+rateprofile 4
+
+
+# rateprofile
+rateprofile 5
+
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+save
+# 
