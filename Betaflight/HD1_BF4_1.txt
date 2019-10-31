@@ -1,4 +1,4 @@
-
+# 
 
 # diff all
 
@@ -17,7 +17,7 @@ manufacturer_id AIRB
 mcu_id 003b003c574850092038344b
 signature 
 
-# name: DJI1
+# name: PitBoss
 
 # resources
 resource MOTOR 1 A03
@@ -64,7 +64,7 @@ set beeper_dshot_beacon_tone = 3
 set small_angle = 180
 set pid_process_denom = 1
 set gyro_1_align_yaw = 1800
-set name = DJI1
+set name = PitBoss
 
 profile 0
 
