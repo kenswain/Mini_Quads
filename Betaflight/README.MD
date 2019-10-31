@@ -1,9 +1,12 @@
 # Betaflight Quads
 
-HD1_BF4_1.txt - Frame = RR HD1
-				Motors = Hypetrain Crickett
-				FC = Hobbywing 
-				ESC = Hobbywing
+### HD1
 
+Frame = Rotor Riot HD1
+Motors = Hypetrain Crickett
+Flight Controler = HobbyWing Stack
+DJI Air Module for everything else
+
+### Reverb
 
 
