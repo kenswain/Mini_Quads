@@ -54,13 +54,9 @@ set mag_hardware = NONE
 set baro_hardware = NONE
 set serialrx_provider = SBUS
 set sbus_baud_fast = ON
-set min_throttle = 1070
 set dshot_bidir = ON
-set use_unsynced_pwm = OFF
 set motor_pwm_protocol = DSHOT300
-set motor_pwm_rate = 480
 set align_board_yaw = 90
-set beeper_dshot_beacon_tone = 3
 set small_angle = 180
 set pid_process_denom = 1
 set gyro_1_align_yaw = 1800
@@ -71,7 +67,8 @@ profile 0
 # profile 0
 set dyn_lpf_dterm_min_hz = 140
 set dyn_lpf_dterm_max_hz = 340
-set dterm_lowpass2_hz = 300
+set dterm_lowpass2_hz = 0
+set vbat_pid_gain = ON
 
 profile 1
 
