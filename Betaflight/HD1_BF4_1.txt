@@ -44,11 +44,11 @@ aux 2 35 3 1700 2100 0 0
 
 # master
 set gyro_sync_denom = 2
-set gyro_lowpass2_hz = 500
+set gyro_lowpass2_hz = 0
 set dyn_notch_range = LOW
 set dyn_notch_q = 200
 set dyn_notch_min_hz = 90
-set dyn_lpf_gyro_min_hz = 400
+set dyn_lpf_gyro_min_hz = 0
 set dyn_lpf_gyro_max_hz = 1000
 set mag_hardware = NONE
 set baro_hardware = NONE
@@ -70,7 +70,7 @@ profile 0
 # profile 0
 set dyn_lpf_dterm_min_hz = 140
 set dyn_lpf_dterm_max_hz = 340
-set dterm_lowpass2_hz = 0
+set dterm_lowpass2_hz = 300
 set vbat_pid_gain = ON
 set p_pitch = 59
 set d_pitch = 49
