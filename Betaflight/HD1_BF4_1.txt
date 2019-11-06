@@ -28,6 +28,7 @@ resource MOTOR 4 B01
 # feature
 feature -RX_PARALLEL_PWM
 feature -OSD
+feature -AIRMODE
 feature RX_SERIAL
 
 # beacon
@@ -40,7 +41,8 @@ serial 2 1 115200 57600 0 115200
 # aux
 aux 0 0 0 1300 2100 0 0
 aux 1 13 3 1300 1700 0 0
-aux 2 35 3 1700 2100 0 0
+aux 2 28 0 1675 2075 0 0
+aux 3 35 3 1700 2100 0 0
 
 # master
 set gyro_sync_denom = 2
@@ -54,11 +56,8 @@ set mag_hardware = NONE
 set baro_hardware = NONE
 set serialrx_provider = SBUS
 set sbus_baud_fast = ON
-set min_throttle = 1070
 set dshot_bidir = ON
-set use_unsynced_pwm = OFF
 set motor_pwm_protocol = DSHOT300
-set motor_pwm_rate = 480
 set align_board_yaw = 90
 set small_angle = 180
 set pid_process_denom = 1
