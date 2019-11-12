@@ -1,3 +1,9 @@
 # Backup for KISS
 
-Only my reverb for now, but might have more later.
+
+### ReverbKiss
+	Frame = ImpulesRC Reverb
+	Motors = Luminer Skitzo
+	Flight Controler = Kiss v2
+	ESC = Kiss
+	VTX = Tramp
