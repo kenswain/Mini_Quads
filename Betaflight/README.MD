@@ -16,3 +16,12 @@
 	Flight Controler = Rotor Riot  
 	ESC = DYS
 	VTX = Tramp
+
+
+
+### ReverbKiss
+	Frame = ImpulesRC Reverb
+	Motors = Luminer Skitzo
+	Flight Controler = Kiss v2
+	ESC = Kiss
+	VTX = Tramp
